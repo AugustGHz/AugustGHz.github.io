@@ -1,2 +1,0 @@
-# AugustGHz.github.io
-Portfólio
