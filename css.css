@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="https://use.typekit.net/yuu2lst.css">
 body{
     background-color: #FFFFFF;
 }
@@ -8,10 +7,10 @@ body{
     position: absolute;
 }
 h1{
-    padding-top: 3%;
+    padding-top: 4%;
     margin-left: 8%;
     margin-top: 220px;
-    margin-bottom: -2%;
+    margin-bottom: -1%;
     position: relative;
     font-size: 6vw;
     font-family: giulia-plain;
@@ -25,7 +24,7 @@ h1{
     display: block;
 }
 p1{
-    left: 20%;
+    left: 19.5%;
     position: absolute;
     font-family: giulia-plain;
     color: #C48AFF;
