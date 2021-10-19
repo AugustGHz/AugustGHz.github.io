@@ -13,7 +13,7 @@ h1{
     margin-bottom: -2%;
     position: relative;
     font-size: 6vw;
-    font-family: Giulia Plain;
+    font-family: giulia-plain;
     color: #C48AFF;
 }
 .Logo{
@@ -26,7 +26,7 @@ h1{
 p1{
     left: 20%;
     position: absolute;
-    font-family: Giulia Plain;
+    font-family: giulia-plain;
     color: #C48AFF;
     font-size: 2vw;
 }
@@ -60,7 +60,7 @@ p1{
         margin-bottom: -4%;
         font-size: 10vw;
         text-align: center;
-        font-family: Giulia Plain;
+        font-family: giulia-plain;
         color: #C48AFF;
         position: relative;
     }
@@ -69,7 +69,7 @@ p1{
         position: relative;
         font-size: 3vw;
         text-align: end;
-        font-family: Giulia Plain;
+        font-family: giulia-plain;
         color: #C48AFF;
     }
 }
