@@ -1,21 +1,6 @@
 body{
     background-color: #FFFFFF;
 }
-.L{
-    margin-left: 5%;
-    width: 15%;
-    position: absolute;
-}
-h1{
-    padding-top: 4%;
-    margin-left: 8%;
-    margin-top: 220px;
-    margin-bottom: -1%;
-    position: relative;
-    font-size: 6vw;
-    font-family: giulia-plain;
-    color: #C48AFF;
-}
 .Logo{
     margin-left: auto;
     margin-right: auto;
@@ -23,39 +8,92 @@ h1{
     width: 12%;
     display: block;
 }
+
+.a-container{
+    padding-bottom: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.L{
+    margin-top: 15%;
+    margin-left: 5%;
+    width: 15%;
+    position: absolute;
+}
+h1{
+    padding-top: 4%;
+    margin-left: 18%;
+    margin-top: 33%;
+    margin-bottom: -1%;
+    position: relative;
+    font-size: 6vw;
+    font-family: giulia-plain;
+    color: #C48AFF;
+}
 p1{
-    left: 19.5%;
+    left: 20.5%;
     position: absolute;
     font-family: giulia-plain;
     color: #C48AFF;
     font-size: 2vw;
 }
 .Desenhos{
-    padding-top: 10%;
-    right: 10%;
     position: absolute;
-    height: 60%;
+    padding-top: 5%;
+    right: 10%;
+    height: 70%;
 }
-@media (max-width: 700px) {
+
+/*
+Linha B */
+.b-container{
+    padding-bottom: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+p2{
+    margin-top: 50px;
+    text-align: center ;
+    font-family: Quicksand;
+    color: #C48AFF;
+    font-size: 5vw;
+}
+.b1{
+    margin-left: 5%;
+    width: 80%;
+}
+
+
+@media (max-width: 750px) {
+    .a-container{
+        margin: 0px;
+        display: contents;
+    }
     .L{
-        position: absolute;
-        left: 20%;
+        margin: 0;
+        margin-top: -2%;
+        left: 22%;
         width: 25vw;
     }
     .Desenhos{
+        right: auto;
+        margin: 0;
         position: relative;
-        left: 15%;
         width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .Logo{
         background-color: #FDFEFE;
         width: 30%;
         display: block;
-        padding-bottom: 10%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
         padding-top: 1%;
     }
     h1{
-        padding-top: 25px;
+        margin: 0;
         margin-top: 10%;
         margin-bottom: -2%;
         font-size: 10vw;
@@ -65,11 +103,29 @@ p1{
         position: relative;
     }
     p1{
-        left: 53.5%;
+        margin: 0;
+        left: 50%;
         position: relative;
         font-size: 3vw;
         text-align: end;
         font-family: giulia-plain;
         color: #C48AFF;
+    }
+
+    .b-container{
+        display: contents;
+    }
+
+    .b1{
+        margin: 0px;
+        margin-top: 30%;
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p2{
+        display: block;
+        text-align: center;
     }
 }
