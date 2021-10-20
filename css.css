@@ -34,7 +34,7 @@ body{
         left: 20.5%;
         position: absolute;
         font-family: giulia-plain;
-        color: #C48AFF;
+        color: #CFA0FE;
         font-size: 2vw;
     }
     .a2{
@@ -51,17 +51,77 @@ Linha B */
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    p2{
+    h2{
         margin-top: 50px;
         text-align: center ;
         font-family: Quicksand;
         color: #C48AFF;
         font-size: 5vw;
     }
+    p2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        text-align: justify ;
+        font-family: Quicksand;
+        color: #CFA0FE;
+        font-size: 2vw;
+
+    }
     .b1{
         margin-left: 5%;
         width: 80%;
-}
+    }
+
+/*
+Linha C */
+    .c-container{
+        padding-bottom: 400px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .c1{
+        margin-left: auto;
+        margin-right: 5%;
+        width: 80%;
+    }
+    h3{
+        margin-top: 50px;
+        text-align: center ;
+        font-family: Quicksand;
+        color: #C48AFF;
+        font-size: 5vw;
+    }
+
+/*
+Linha D */
+    .d-container{
+        padding-bottom: 400px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .d1{
+        margin-left: 5%;
+        width: 80%;
+    }
+    h4{
+        margin-bottom:0px;
+        margin-top: 50px;
+        text-align: center ;
+        font-family: Quicksand;
+        color: #C48AFF;
+        font-size: 6vw;
+    }
+    dl{
+        margin-top: 0px;
+        margin-left: 35%;
+        text-align: left ;
+        font-family: Quicksand;
+        color: #DFC0FD;
+        font-size: 3vw;
+    }
+
 
 
 @media (max-width: 750px) {
@@ -86,7 +146,6 @@ Linha B */
         margin-right: auto;
     }
     .logo{
-        background-color: #FDFEFE;
         width: 30%;
         display: block;
         padding-bottom: 5%;
@@ -100,7 +159,6 @@ Linha B */
         font-size: 10vw;
         text-align: center;
         font-family: giulia-plain;
-        color: #C48AFF;
         position: relative;
     }
     p1{
@@ -110,7 +168,6 @@ Linha B */
         font-size: 3vw;
         text-align: end;
         font-family: giulia-plain;
-        color: #C48AFF;
     }
 
 /*
@@ -127,8 +184,57 @@ Linha B */
         margin-left: auto;
         margin-right: auto;
     }
-    p2{
+    h2{
         display: block;
         text-align: center;
+    }
+    p2{
+        display: block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 3vw;
+    }
+
+/*
+Linha C */
+    .c-container{
+        display: contents;
+    }
+
+    .c1{
+        margin: 0px;
+        margin-top: 300px;
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h3{
+        margin-top: 300px;
+        display: block;
+        text-align: center;
+    }
+
+/*
+Linha D */
+    .d-container{
+        display: contents;
+    }
+
+    .d1{
+        margin: 0px;
+        margin-top: 300px;
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h4{
+        display: block;
+        text-align: center;
+    }
+    dl{
+        margin-left: 42%
     }
 }
