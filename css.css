@@ -1,7 +1,7 @@
 body{
     background-color: #FFFFFF;
 }
-.Logo{
+.logo{
     margin-left: auto;
     margin-right: auto;
     background-color: #FDFEFE;
@@ -9,58 +9,58 @@ body{
     display: block;
 }
 
-.a-container{
-    padding-bottom: 400px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.L{
-    margin-top: 15%;
-    margin-left: 5%;
-    width: 15%;
-    position: absolute;
-}
-h1{
-    padding-top: 4%;
-    margin-left: 18%;
-    margin-top: 33%;
-    margin-bottom: -1%;
-    position: relative;
-    font-size: 6vw;
-    font-family: giulia-plain;
-    color: #C48AFF;
-}
-p1{
-    left: 20.5%;
-    position: absolute;
-    font-family: giulia-plain;
-    color: #C48AFF;
-    font-size: 2vw;
-}
-.Desenhos{
-    position: absolute;
-    padding-top: 5%;
-    right: 10%;
-    height: 70%;
-}
+    .a-container{
+        padding-bottom: 400px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .a1{
+        margin-top: 15%;
+        margin-left: 5%;
+        width: 15%;
+        position: absolute;
+    }
+    h1{
+        padding-top: 4%;
+        margin-left: 18%;
+        margin-top: 33%;
+        margin-bottom: -1%;
+        position: relative;
+        font-size: 6vw;
+        font-family: giulia-plain;
+        color: #C48AFF;
+    }
+    p1{
+        left: 20.5%;
+        position: absolute;
+        font-family: giulia-plain;
+        color: #C48AFF;
+        font-size: 2vw;
+    }
+    .a2{
+        position: absolute;
+        padding-top: 5%;
+        right: 10%;
+        height: 70%;
+    }
 
 /*
 Linha B */
-.b-container{
-    padding-bottom: 400px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-p2{
-    margin-top: 50px;
-    text-align: center ;
-    font-family: Quicksand;
-    color: #C48AFF;
-    font-size: 5vw;
-}
-.b1{
-    margin-left: 5%;
-    width: 80%;
+    .b-container{
+        padding-bottom: 400px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    p2{
+        margin-top: 50px;
+        text-align: center ;
+        font-family: Quicksand;
+        color: #C48AFF;
+        font-size: 5vw;
+    }
+    .b1{
+        margin-left: 5%;
+        width: 80%;
 }
 
 
@@ -69,13 +69,14 @@ p2{
         margin: 0px;
         display: contents;
     }
-    .L{
+    .a1{
         margin: 0;
         margin-top: -2%;
         left: 22%;
         width: 25vw;
     }
-    .Desenhos{
+    .a2{
+        padding-top: 30%;
         right: auto;
         margin: 0;
         position: relative;
@@ -84,7 +85,7 @@ p2{
         margin-left: auto;
         margin-right: auto;
     }
-    .Logo{
+    .logo{
         background-color: #FDFEFE;
         width: 30%;
         display: block;
@@ -112,13 +113,15 @@ p2{
         color: #C48AFF;
     }
 
+/*
+Linha B */
     .b-container{
         display: contents;
     }
 
     .b1{
         margin: 0px;
-        margin-top: 30%;
+        margin-top: 300px;
         width: 70%;
         display: block;
         margin-left: auto;
