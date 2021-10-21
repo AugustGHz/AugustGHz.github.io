@@ -31,7 +31,7 @@ body{
         color: #C48AFF;
     }
     p1{
-        left: 18.5%;
+        left: 20.5%;
         position: absolute;
         font-family: giulia-plain;
         color: #CFA0FE;
@@ -70,7 +70,7 @@ Linha B */
         margin-right: 5%;
     }
     .b1{
-        margin-left: 5%;
+        margin-left: 0;
         width: 80%;
     }
 
@@ -269,7 +269,7 @@ Linha E*/
     }
     p1{
         margin: 0;
-        left: 48%;
+        left: 50%;
         position: relative;
         font-size: 3vw;
         text-align: end;
